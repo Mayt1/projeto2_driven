@@ -62,8 +62,12 @@
     }
     /*esse storyboxes n funfa, depois ver*/
     .story-boxes {
-        width: 614px;
-        background-color: #e5e5e5e5;
+        background-color: #E5E5E5;
+        height: 80px;
+        border: none;
+        box-shadow: none;
+        margin-top: 18px;
+        margin-bottom: 19px;
     }
     .space-stories {
         margin-top: 54px;
@@ -73,6 +77,12 @@
     }
     .post {
         width: 100vw;
+    }
+    .contents-left{
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+
     }
 
 }
