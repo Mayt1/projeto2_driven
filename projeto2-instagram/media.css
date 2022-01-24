@@ -1,0 +1,78 @@
+@media screen and (max-width: 935px) {
+    .space-header-margin {
+        width: 19px;
+        height: 54px;
+        background-color: #ffffff;
+        display: show;
+    }
+    .header {
+        justify-content: space-between;
+
+    }
+    .contents-right{
+        display: none;
+    }
+    .side-bar{
+        display: none;
+    }
+    .space-header-center {
+        height: 54px;
+        width: 5px;
+    }
+}
+/*preciso fazer a imagem do logo no meio sumir*/
+@media screen and (min-width: 614px) {
+    .search-bar div{
+        display:none;
+    }
+}
+@media screen and (min-width: 935px) {
+    .space-header-margin {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 614px) {
+    .divisoria {
+        display: none;
+    }
+    .icons:nth-child(2){
+        display: none;
+    }
+    .icons:nth-child(3){
+        display: none;
+    }
+    .icons:nth-child(4){
+        display: none;
+    }
+    .logo-instagram{
+        display: none;
+    }
+    .search-bar {
+        background-color: #ffffff;
+    }
+    input[type = text] {
+        display: none;
+    }
+    .search-bar div{
+        width: 103px;
+        height: 29px;
+        display: show;
+    }
+    /*esse storyboxes n funfa, depois ver*/
+    .story-boxes {
+        width: 614px;
+        background-color: #e5e5e5e5;
+    }
+    .space-stories {
+        margin-top: 54px;
+    }
+    .roll-button{
+        display: none;
+    }
+    .post {
+        width: 100vw;
+    }
+
+}

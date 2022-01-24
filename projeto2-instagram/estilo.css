@@ -1,0 +1,345 @@
+
+body {
+    background-color: #e5e5e5;
+}
+a {
+    color: inherit;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+/*====header====*/
+
+.header {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display:flex;
+    height: 54px;
+    width: 100%;
+    border: 1px solid #DBDBDB;
+    border-color: #DBDBDB;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+}
+
+.space-header-margin {
+    width: 22px;
+    height: 54px;
+    background-color: #ffffff;
+}
+
+/*left side from menu*/
+.logo-instagram{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 103px;
+    height: 29px;
+}
+
+.divisoria {
+    width: 1px;
+    height: 22px;
+    border-left: 1px solid #DBDBDB;
+    fill: solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+  }
+
+.header-left-menu {
+    display: inline-flex;
+}
+
+.icon-left-header{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 22px;
+}
+
+.space-header-center {
+    height: 54px;
+    width: 186px;
+}
+
+/*search-bar from center */
+.search-bar {
+    background-color: #FAFAFA;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+input[type = text] {
+    box-sizing: border-box;
+    height: 28px;
+    width: 215px;
+    font-size: 14px;
+    padding: 1px;
+    text-align: center;
+    border:1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+}
+
+
+/*right side from menu and icons for posts*/
+.header-right-menu {
+    display: inline-flex;
+}
+.icon-right-header{
+    margin-top: 16px;;
+    margin-bottom: 16px;
+    font-size: 22px;
+}
+.icons {
+    display: inline-flex;
+    padding-left: 20px;
+}
+.icons:first-child {
+    padding-left: none;
+
+}
+/*=================================stories===================================*/
+.main-area {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.space-stories {
+    width: 614px;
+    margin-top: 88px;
+}
+
+.stories-boxes {
+    width: 612px;
+    height: 118px;
+    background-color: #ffffff;
+    margin-bottom: 24px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.roll-button{
+    position: absolute;
+    font-size: 26px;
+    top: 46px;
+    right: 8px;
+    z-index: 1;
+    color: #FFFFFF;
+    filter: drop-shadow(3.5px 3.5px 2px rgba(0, 0, 0, 0.5));
+}
+.story-content{
+    position: relative;
+    margin-left: 14px;
+}
+.story-background img{
+    width: 66px;
+    height: 66px;
+}
+.story-image img{
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.story-title{
+    text-align: center;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+/*====posts==============================*/
+.post {
+    width: 612px;
+    height: 749px;
+    background-color: #ffffff;
+    margin-bottom: 60px;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+.post-owner {
+    width: 612px;
+    height: 61px;
+    display: flex;
+    flex-direction: row;
+}
+.post-owner img {
+    margin-top: 15px;
+    margin-left: 17px;
+    margin-right: 15px;
+}
+.post-owner p {
+    margin-top: 24px;
+}
+.post-owner div {
+    margin-top:24px;
+    margin-left:452px;
+    font-size: 20px;
+}
+.icons-post {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+}
+.icons-post-space {
+    width: 440px;
+}
+.post-like-counter {
+    display: flex;
+    position: relative;
+}
+.post-like-counter img{
+    margin-left:17px;
+    margin-right: 5px;
+}
+.post-like-counter p{
+    margin-top: 2px;
+}
+.post-like-counter a:hover {
+    text-decoration: underline;
+}
+video{
+    width: 614px;
+    min-height: 614px;
+    max-height: calc(100vh - 114px);
+}
+/*====side-bar===============================*/
+.content-right {
+    width: 293px;
+    height: 455px;
+    margin-left: 28px;
+    margin-top: 111px;
+    flex-direction: column;
+    position: relative;
+}
+.side-bar{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.user-profile{
+    display: flex;
+    align-items: center;
+}
+.user-profile img{
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+}
+.user-profile-name{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.41px;
+    margin-left: 17px;
+
+}
+.user-profile-name p{
+    color: #8E8E8E;
+}
+.suggestion{
+    width: 293px;
+    margin-top: 24px;
+}
+.suggestion-header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    color: #8E8E8E;
+}
+.inline-color-strong{
+    color:#262626;
+}
+.user-suggestion{
+    width: 300px;
+    margin-top: 17px;
+    display: flex;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bold;
+}
+.user-suggestion img{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+.user-suggestion-data{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-suggestion-text{
+    display: flex;
+    flex-direction: column;
+}
+.user-suggestion-name{
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 500;
+    color: #262626;
+    margin-left: 11px; 
+}
+.user-suggestion-name p:hover{
+    text-decoration: underline;
+}
+.user-suggestion-status{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #8E8E8E;
+    margin-left: 11px;
+    margin-top: 4px;
+}
+.follow-button{
+    color: #139EF2;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight:bold;
+    margin-left: 153px;
+    /**/
+    margin-top: 10px;
+}
+.help-links {
+    width: 300px;
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 33px;
+}
+.help-links a{
+    color: #c7c7c7;
+    font-size: 11px;
+    margin-top:18px;
+}
+.help-links pre{
+    color: #c7c7c7;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.authors-copyright {
+    color: #c7c7c7;
+    font-size: 12px;
+    margin-top:18px;
+}
